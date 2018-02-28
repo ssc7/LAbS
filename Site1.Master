@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="MDB/js/jquery"></script>
+    <script src="MDB/js/mdb"></script>
+    <script src="MDB/js/mdb.min"></script>
+    <script src="MDB/js/bootstrap"></script>
+    <script src="MDB/js/bootstrap.min"></script>
+    <script src="MDB/js/popper.min"></script>
+    <link rel="stylesheet" href="MDB/css/mdb.css" type="text/css" />
+    <link rel="stylesheet" href="MDB/css/mdb.min.css" type="text/css" />
+    <link rel="stylesheet" href="MDB/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="MDB/css/bootstrap.min.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+</body>
+</html>
